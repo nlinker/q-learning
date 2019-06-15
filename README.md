@@ -30,12 +30,12 @@ source venv/bin/activate
 pip install -r requirements.txt 
 ```
 
-Then can evaluate the model
+Then you can evaluate the model
 ```bash
 python main.py -e
 ```
 
-Or train and evaluate it
+... or train and evaluate it
 ```bash
 python main.py
 ```
