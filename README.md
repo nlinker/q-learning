@@ -39,7 +39,7 @@ python main.py -e
 ```bash
 python main.py
 ```
-It takes a time, and as a result will produce files `current-graph.png` and `current-qfunc.pkl`, the
+It takes time, and as a result will produce files `current-graph.png` and `current-qfunc.pkl`, the
 last one is the data structure to calculate Q-function, that the agent may use. The graph looks like this:
 ![training graph](current-graph.png) 
 
