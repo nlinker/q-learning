@@ -1,8 +1,8 @@
-## How to train your Q-function
+# How to train your Q-function
 
 ...or a small exercise in reinforcement learning
 
-### What is this
+## What is this
 
 This is a project that creates a simple environment without dependencies like OpenAI Gym, 
 and implements [Q-learning algorithm](https://en.wikipedia.org/wiki/Q-learning) using the environment. 
@@ -10,7 +10,7 @@ The result is the trained agent `A` that tries to avoid the enemies `E`:
 
 ![chase](img/chase.gif)
 
-### The environment
+## The environment
 
 The rules are:
 1. The field is square, parameterized by the side length;
@@ -20,7 +20,7 @@ The rules are:
 5. There are no collisions between enemies.
 
  
-### Installation
+## Installation
 
 You need python3, I'd suggest to use [virtualenv](https://www.pythonforbeginners.com/basics/how-to-use-python-virtualenv).
 Create the virtual environment and install the dependencies there:
@@ -43,7 +43,7 @@ It takes a time, and as a result will produce files `current-graph.png` and `cur
 last one is the data structure to calculate Q-function, that the agent may use. The graph looks like this:
 ![training graph](current-graph.png) 
 
-### Credits
+## Credits
 
 Thanks to [kismir](https://habr.com/ru/users/kismir/) for the idea of the environment, 
 it is taken from the article https://habr.com/ru/post/345656/ 
