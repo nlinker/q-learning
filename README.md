@@ -1,6 +1,6 @@
 ## How to train your Q-function
 
-...or the small exercise in reinforcement learning
+...or a small exercise in reinforcement learning
 
 ### What is this
 
